@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <main className={`h-screen bg-gradient-to-t from-teal-300 from-50% to-teal-100 to-50% relative p-4`}>
-      <div className={`2xl:bg-pink-500 xl:bg-blue-500 lg:bg-red-500 md:bg-yellow-500 sm:bg-green-500 p-6 2xl xl:w-96 rounded-xl shadow-md absolute transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2`}>
+      <div className={`2xl:bg-pink-500 xl:bg-blue-500 lg:bg-red-500 md:bg-yellow-500 sm:bg-green-500 p-6 2xl w-96 rounded-xl shadow-md absolute transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2`}>
         <div className={`flex flex-col gap-4`}>
           <div className={`flex flex-col items-center`}>
             <Image src="/assets/Vitaforce.png" width="200" height="100" alt="Logo" />
