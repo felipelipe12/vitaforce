@@ -10,7 +10,7 @@ export default function Dashboard() {
     const [open, setOpen] = useState(true);
 
     return (
-        <main className="flex h-screen gap-4">
+        <main className="flex h-screen gap-4 bg-red-400">
             <aside className={`${open ? "w-72" : "w-20"} bg-teal-100 my-4 ml-4 px-6 py-4 rounded-xl relative duration-300`}>
                 <button className={`bg-teal-300 p-3 rounded absolute top-4 -right-7`} onClick={() => setOpen(!open)}>
                     {!open ? <FaAngleRight /> : <FaAngleLeft />}
