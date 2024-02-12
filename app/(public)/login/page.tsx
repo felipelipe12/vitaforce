@@ -6,8 +6,8 @@ export default function Login() {
     <div className={`bg-white p-6 2xl w-96 rounded-xl shadow-md absolute transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2`}>
       <div className={`flex flex-col gap-4`}>
         <div className={`flex flex-col items-center gap-2`}>
-          <Image src="/assets/Vitaforce.png" width="200" height="100" alt="Logo" />
-          <h2>Frase de efeito</h2>
+          <Image src="/assets/Vitaforce.png" width="300" height="75" alt="Logo" />
+          <h2>Acesse sua conta</h2>
         </div>
         <form action="">
           <div className={`flex flex-col gap-4`}>

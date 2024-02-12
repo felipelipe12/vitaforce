@@ -11,7 +11,7 @@ export default function RootLayout({
         <main className={`h-[100dvh] relative p-4`}>
             <div className={`h-full flex flex-col justify-between`}>
                 <div className={`w-full flex gap-2 justify-end`}>
-                    <button className={`bg-teal-50 rounded p-2`}>
+                    <button className={`bg-teal-50 rounded shadow-md p-2`}>
                         <FaMoon />
                     </button>
                     <span>Language</span>
