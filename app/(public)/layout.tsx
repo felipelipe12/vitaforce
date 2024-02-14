@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaMoon } from "react-icons/fa6";
 
 export default function RootLayout({
